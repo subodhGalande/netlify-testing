@@ -31,14 +31,17 @@ function App() {
 
         <div className="box">
           <form name="confession" method="POST" netlify>
-            <textarea
-              className="textarea is-family-monospace"
-              name="text"
-              id="text"
-              cols="30"
-              rows="5"
-              placeholder="Write here..."
-            ></textarea>
+            <label>
+              <textarea
+                className="textarea is-family-monospace"
+                name="text"
+                id="text"
+                cols="30"
+                type="text"
+                rows="5"
+                placeholder="Write here..."
+              ></textarea>
+            </label>
             <br />
             <button
               type="submit"
