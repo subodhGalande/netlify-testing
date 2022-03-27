@@ -30,7 +30,7 @@ function App() {
         <br />
 
         <div className="box">
-          <form netlify>
+          <form name="confession" method="POST" netlify>
             <textarea
               className="textarea is-family-monospace"
               name="text"
@@ -40,7 +40,10 @@ function App() {
               placeholder="Write here..."
             ></textarea>
             <br />
-            <button className="button is-link has-text-weight-bold is-family-monospace ">
+            <button
+              type="submit"
+              className="button is-link has-text-weight-bold is-family-monospace "
+            >
               Confess!!!
             </button>
           </form>
