@@ -30,7 +30,7 @@ function App() {
         <br />
 
         <div className="box">
-          <form>
+          <form netlify>
             <textarea
               className="textarea is-family-monospace"
               name="text"
