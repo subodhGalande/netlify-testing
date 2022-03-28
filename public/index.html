@@ -27,6 +27,25 @@
     <title>Confess It Peeps</title>
   </head>
   <body>
+    <form name="confession" netlify action="/" hidden>
+      <label>
+        <textarea
+          className="textarea is-family-monospace"
+          name="text"
+          id="text"
+          cols="30"
+          type="text"
+          rows="5"
+        ></textarea>
+      </label>
+      <br />
+      <button
+        type="submit"
+        className="button is-link has-text-weight-bold is-family-monospace "
+      >
+        Confess!!!
+      </button>
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

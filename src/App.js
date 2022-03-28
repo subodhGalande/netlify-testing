@@ -30,7 +30,8 @@ function App() {
         <br />
 
         <div className="box">
-          <form name="confession" method="POST" netlify>
+          <form name="confession" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="confession" />
             <label>
               <textarea
                 className="textarea is-family-monospace"
